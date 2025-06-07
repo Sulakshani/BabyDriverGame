@@ -1,0 +1,52 @@
+.tryagain{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tryagain_button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, background-color 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .tryagain_button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+  }
+  
+  .tryagain_button:active {
+    background-color: #ff69b4;
+    transform: scale(1);
+  }
+
+  .tryagain-button {
+    position: absolute;
+    left: 50%; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
+    bottom: 70px;
+    z-index: 1;
+    animation: pulsate 2s infinite alternate;
+  }
+
+  .cup {
+    position: absolute;
+    left: 46%; /* Adjust as needed */
+    top: 40%;
+    width: 250px; /* Adjust as needed */
+    z-index: 1;
+    animation: pulsate 2s infinite alternate;
+}

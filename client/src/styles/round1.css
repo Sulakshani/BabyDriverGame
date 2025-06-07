@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Comic Sans MS', sans-serif;
+    overflow: hidden;
+    
+  }
+
+  .background-img-round1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .back-img {
+    position: absolute;
+    left: 100px; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
+    top: 50px;
+    z-index: 1;
+    animation: pulsate 2s infinite alternate;
+  }
+  
+  .game-logo {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 350px; 
+    height: auto;
+  }
+  .levelPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  
+  .level-text {
+    font-size: 5rem;
+    color: rgb(25, 50, 54);
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', sans-serif;
+  }
+  

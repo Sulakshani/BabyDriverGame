@@ -1,0 +1,1600 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background: #1c2539;
+}
+
+.countdown {
+    width: 100vw;
+    padding-top: 56.25%;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.countdown > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 4px;
+    perspective: 1000px;
+}
+
+.x1-y1 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.1s;
+    will-change: transform;
+}
+
+.x1-y2 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.15s;
+    will-change: transform;
+}
+
+.x1-y3 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.2s;
+    will-change: transform;
+}
+
+.x1-y4 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.25s;
+    will-change: transform;
+}
+
+.x1-y5 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.3s;
+    will-change: transform;
+}
+
+.x1-y6 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.35s;
+    will-change: transform;
+}
+
+.x1-y7 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x1-y8 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x1-y9 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x2-y1 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.15s;
+    will-change: transform;
+}
+
+.x2-y2 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.2s;
+    will-change: transform;
+}
+
+.x2-y3 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.25s;
+    will-change: transform;
+}
+
+.x2-y4 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.3s;
+    will-change: transform;
+}
+
+.x2-y5 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.35s;
+    will-change: transform;
+}
+
+.x2-y6 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x2-y7 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x2-y8 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x2-y9 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x3-y1 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.2s;
+    will-change: transform;
+}
+
+.x3-y2 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.25s;
+    will-change: transform;
+}
+
+.x3-y3 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.3s;
+    will-change: transform;
+}
+
+.x3-y4 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.35s;
+    will-change: transform;
+}
+
+.x3-y5 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x3-y6 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x3-y7 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x3-y8 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x3-y9 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x4-y1 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.25s;
+    will-change: transform;
+}
+
+.x4-y2 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.3s;
+    will-change: transform;
+}
+
+.x4-y3 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.35s;
+    will-change: transform;
+}
+
+.x4-y4 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x4-y5 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x4-y6 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x4-y7 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x4-y8 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x4-y9 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x5-y1 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.3s;
+    will-change: transform;
+}
+
+.x5-y2 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.35s;
+    will-change: transform;
+}
+
+.x5-y3 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x5-y4 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x5-y5 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x5-y6 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x5-y7 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x5-y8 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x5-y9 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x6-y1 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.35s;
+    will-change: transform;
+}
+
+.x6-y2 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x6-y3 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x6-y4 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x6-y5 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x6-y6 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x6-y7 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x6-y8 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x6-y9 {
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x7-y1 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.4s;
+    will-change: transform;
+}
+
+.x7-y2 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x7-y3 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x7-y4 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x7-y5 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x7-y6 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x7-y7 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x7-y8 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x7-y9 {
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x8-y1 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.45s;
+    will-change: transform;
+}
+
+.x8-y2 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x8-y3 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x8-y4 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x8-y5 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x8-y6 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x8-y7 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x8-y8 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x8-y9 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x9-y1 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.5s;
+    will-change: transform;
+}
+
+.x9-y2 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x9-y3 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x9-y4 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x9-y5 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x9-y6 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x9-y7 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x9-y8 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x9-y9 {
+    position: relative;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x10-y1 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x10-y2 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x10-y3 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x10-y4 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x10-y5 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x10-y6 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x10-y7 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x10-y8 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x10-y9 {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.95s;
+    will-change: transform;
+}
+.x11-y1 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x11-y2 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x11-y3 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x11-y4 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x11-y5 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x11-y6 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x11-y7 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x11-y8 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x11-y9 {
+    position: relative;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.95s;
+    will-change: transform;
+}
+
+.x12-y1 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x12-y2 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x12-y3 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x12-y4 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x12-y5 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x12-y6 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x12-y7 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x12-y8 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x12-y9 {
+    position: relative;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.95s;
+    will-change: transform;
+}
+
+.x13-y1 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x13-y2 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x13-y3 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x13-y4 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x13-y5 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x13-y6 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x13-y7 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x13-y8 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x13-y9 {
+    position: relative;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.95s;
+    will-change: transform;
+}
+
+.x14-y1 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end:15;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x14-y2 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x14-y3 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x14-y4 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x14-y5 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x14-y6 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x14-y7 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x14-y8 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x14-y9 {
+    position: relative;
+    grid-column-start: 14;
+    grid-column-end: 15;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.95s;
+    will-change: transform;
+}
+
+.x15-y1 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #1b2335;
+    transition: all 0.4s ease 0.55s;
+    will-change: transform;
+}
+
+.x15-y2 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #1b2335;
+    transition: all 0.4s ease 0.6s;
+    will-change: transform;
+}
+
+.x15-y3 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #1b2335;
+    transition: all 0.4s ease 0.65s;
+    will-change: transform;
+}
+
+.x15-y4 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #1b2335;
+    transition: all 0.4s ease 0.7s;
+    will-change: transform;
+}
+
+.x15-y5 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background: #1b2335;
+    transition: all 0.4s ease 0.75s;
+    will-change: transform;
+}
+
+.x15-y6 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: #1b2335;
+    transition: all 0.4s ease 0.8s;
+    will-change: transform;
+}
+
+.x15-y7 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background: #1b2335;
+    transition: all 0.4s ease 0.85s;
+    will-change: transform;
+}
+
+.x15-y8 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: #1b2335;
+    transition: all 0.4s ease 0.9s;
+    will-change: transform;
+}
+
+.x15-y9 {
+    position: relative;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: #1b2335;
+    transition: all 0.4s ease 0.95s;
+    will-change: transform;
+}
+
+
+.bg-button {
+    position: absolute;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12%;
+}
+
+.bg-button:focus {
+    outline: none;
+}
+
+.bg-button-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.bg-button:hover .bg-button-content {
+    color: #ffcc00;
+}
+.active {
+    box-shadow: 0 0 120px 0px rgba(237, 159, 22, 0.7);
+    transform: rotateY(180deg);
+    background: #e6ae46;
+}
+
+.repaint div {
+    background: #131c30;
+}
+
+.number-3 .x7-y3, .number-3 .x8-y3, .number-3 .x9-y3, .number-3 .x8-y5, .number-3 .x9-y4,
+.number-3 .x9-y5, .number-3 .x9-y6, .number-3 .x9-y7, .number-3 .x7-y7, .number-3 .x8-y7 {
+    box-shadow: 0 0 120px 0px #d81be9;
+    transform: rotateY(180deg);
+    background: #d81be9;
+}
+
+.number-2 .x7-y3, .number-2 .x8-y3, .number-2 .x9-y3, .number-2 .x8-y5, .number-2 .x9-y4,
+.number-2 .x9-y5, .number-2 .x7-y6, .number-2 .x7-y5, .number-2 .x7-y7, .number-2 .x8-y7,
+.number-2 .x9-y7 {
+    box-shadow: 0 0 120px 0px #d81be9;
+    transform: rotateY(180deg);
+    background: #d81be9;
+}
+
+.number-1 .x7-y3, .number-1 .x8-y3, .number-1 .x8-y4, .number-1 .x8-y5,
+.number-1 .x8-y6, .number-1 .x8-y7 {
+    box-shadow: 0 0 120px 0px #d81be9;
+    transform: rotateY(180deg);
+    background: #d81be9;
+}
+
+.number-0 .x7-y3, .number-0 .x8-y3, .number-0 .x9-y3, .number-0 .x7-y4,
+.number-0 .x7-y5, .number-0 .x7-y6, .number-0 .x7-y7, .number-0 .x9-y4,
+.number-0 .x9-y5, .number-0 .x9-y6, .number-0 .x9-y7, .number-0 .x8-y7 {
+    box-shadow: 0 0 120px 0px #d81be9;
+    transform: rotateY(180deg);
+    background: #d81be9;
+}
+
+.text-go {
+    color: #fff;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+}

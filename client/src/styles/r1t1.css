@@ -1,0 +1,49 @@
+.r1t1{
+    
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    background-image: url('../assets/start/start-back.jpg');
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.task_head{
+    font-size: 3.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.task_button{
+    padding: 15px 30px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task_button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+  }
+  
+.task_-button:active {
+    background-color: #ff69b4;
+    transform: scale(1);
+  }

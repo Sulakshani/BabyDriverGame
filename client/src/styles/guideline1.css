@@ -1,0 +1,49 @@
+/* src/AnimatedText.css */
+
+/* AnimatedText.css */
+
+.text span {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .text span.revealed {
+    opacity: 1;
+  }
+  
+  .text span.green {
+    color: #27ae60;
+  }
+  
+  .text span.red {
+    color: #ff0000;
+  }
+  
+  /* Demo styles */
+  body {
+    background: #3498db;
+    padding: 3em;
+    font-family: 'Sora', monospace;
+  }
+  
+  .text {
+    font-size: 4vw;
+    word-spacing: 0.2em;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1em;
+    border-bottom: 1vw solid #0e6dad;
+    position: relative;
+    line-height: 1.2em;
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .corner {
+    position: absolute;
+    width: 10vw;
+    right: 2vw;
+    bottom: 0;
+    transform: translateY(80%);
+  }
+  
